@@ -14,7 +14,9 @@ function App() {
 
   return (
     <div className="app">
-      {starBlockElements}
+      <div className="ratings-container">
+        {starBlockElements}
+      </div>
     </div>
   );
 }

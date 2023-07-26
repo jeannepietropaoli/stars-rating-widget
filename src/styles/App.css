@@ -1,0 +1,14 @@
+.app {
+    display: flex;
+    margin: 70px;
+    
+}
+
+.ratings-container {
+    flex-grow: 1;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+}
