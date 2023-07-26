@@ -13,15 +13,24 @@
 
 .stars {
     stroke-width: 2px;
-    stroke: black;
 }
 
 .stars.animate {
     animation: shake var(--animation-duration) ease var(--delay) forwards;
 }
 
+.stars.hovered {
+    animation: hover var(--animation-duration) ease var(--delay) forwards;
+}
+
 @keyframes shake {
-    0%  { transform: translateY(0) ; fill: transparent;}
+    0%  { transform: translateY(0) ; fill: lightgray;}
     50% { transform: translateY(-15%);}
     100%{ transform: translate(0)  ; fill: var(--fill-color);}
+}
+
+@keyframes hover {
+    0%  { fill: lightgray }
+    50% { transform: translateY(-8%);}
+    100%{ fill: var(--fill-color); fill-opacity: 0.5;}
 }
