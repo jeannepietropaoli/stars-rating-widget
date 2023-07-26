@@ -6,7 +6,7 @@ export default function RatingSection(props) {
     return (
         <div className="rating-section">
             <h2>{props.sectionName}</h2>
-            <StarBlock />
+            <StarBlock sectionName={props.sectionName} rateSection={props.rateSection} />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/StarBlock.css"
 
-export default function StarBlock() {
+export default function StarBlock(props) {
     const delayInterval = 100
     const singleAnimationDuration = 600
     const defaultFillColor = "#edebeb"
@@ -69,7 +69,7 @@ export default function StarBlock() {
             <svg 
                 onMouseEnter={() => setHoverTargetStarIndex(star.index)}
                 onMouseLeave={() => setHoverTargetStarIndex(null)}
-                onClick={() => setTargetStarIndex(star.index)}  
+                onClick={() => {setTargetStarIndex(star.index); props.rateSection(star.index, props.sectionName)}}  
                 style={{
                     "--fill-color" : fillColor,
                     "--delay" : star.delay,
