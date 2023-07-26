@@ -1,5 +1,6 @@
 import React from "react";
 import StarBlock from "./StarBlock";
+import "../styles/RatingSection.css"
 
 export default function RatingSection(props) {
     return (

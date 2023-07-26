@@ -13,7 +13,7 @@
 
 .stars {
     stroke-width: 2px;
-    stroke: yellow;
+    stroke: black;
 }
 
 .stars.animate {

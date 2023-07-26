@@ -56,7 +56,7 @@ export default function StarBlock() {
                 fill={star.selected ? fillColor : "transparent"}
                 width="45"
                 height="45"
-                viewBox="-40 -40 80 80"
+                viewBox="-45 -45 90 90"
             >
                 <path 
                     onClick={() => setTargetStarIndex(star.index)}  
