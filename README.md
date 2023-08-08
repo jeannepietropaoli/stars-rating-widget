@@ -22,4 +22,7 @@ The goal of this project is to create a personal version of the stars-rating wid
 
 ## Features
 
-- to come -
+- **5-Star Precision**: Enable users to give accurate ratings with a 5-star scale.
+- **Combined Ratings**: Merge scores from 4 sections to calculate an precize overall rating.
+- **Dynamic Animations**: Stars come to life with hover and click animations, creating an appealing wave-like effect.
+- **Decimal Detail**: Achieve exactness by supporting decimal ratings, ensuring precise star fills for the final rating.
