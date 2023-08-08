@@ -2,7 +2,7 @@
 
 ## Live version
 
-http://jeannepietropaoli.github.io/{stars-rating-widget}/
+http://jeannepietropaoli.github.io/stars-rating-widget/
 
 ## Description
 
