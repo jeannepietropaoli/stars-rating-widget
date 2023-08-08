@@ -1,14 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Warning
-
-Work in progress
+# Stars-Rating Widget
 
 ## Live version
 
-Not available yet
+http://jeannepietropaoli.github.io/{stars-rating-widget}/
 
 ## Description
 
